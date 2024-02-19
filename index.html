@@ -8,41 +8,46 @@
     <title>AI-poem-Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI poem generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Welcome to the AI poem generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic here"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>The poem will be here</div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic here"
+            autofocus
+            required
+            class="instructions"
+          />
+          <input type="submit" class="button" />
+        </form>
+        <div class="poem">The poem will be here</div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Krizz1103" target="_blank">Kristin Kessler</a>
-      and is open-sourced on
-      <a
-        rel="stylesheet"
-        href="https://github.com/Krizz1103/poem-creator"
-        target="_blank"
-      >
-        Github
-      </a>
-      and is hosted on
-      <a
-        href="https://app.netlify.com/sites/cerulean-fairy-169d17/overview"
-        target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Krizz1103" target="_blank"
+          >Kristin Kessler</a
+        >
+        and is open-sourced on
+        <a
+          rel="stylesheet"
+          href="https://github.com/Krizz1103/poem-creator"
+          target="_blank"
+        >
+          Github
+        </a>
+        and is hosted on
+        <a
+          href="https://app.netlify.com/sites/cerulean-fairy-169d17/overview"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
