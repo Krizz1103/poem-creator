@@ -64,6 +64,20 @@ a {
   background-color: white;
   padding: 20px;
   line-height: 1.5;
+  display: none;
   border-left: 3px solid rgba(134, 97, 228, 0.8);
   box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.blink {
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
